@@ -97,8 +97,13 @@ body, html {
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <div class = "sidenav" id="mySidenav">
-	 <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2 w3-hover-opacity-off"  style="padding: 1%;" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-	</div>
+	   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><!--<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2 w3-hover-opacity-off"  style="padding: 1%;" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+	--></div>
+	 
+<div class = "main">
+	  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>	
+</div>
+	 
       <a href="#" class="w3-bar-item w3-button w3-red w3-hover-white w3-hover-opacity-off" style="background-color: #fc4d41; padding:1%; font-family: 'Fredoka One', cursive;"><i class="fa fa-home w3-margin-right"></i>AHS Hack Club</a>
   <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-opacity-off" style="padding:1%;font-family: 'Fredoka One', cursive;">Team</a>
   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-opacity-off" style="padding:1%;font-family: 'Fredoka One', cursive;">About</a>
@@ -107,9 +112,6 @@ body, html {
   </div>
 </div>
 
-<div class = "main">
-	  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>	
-</div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
